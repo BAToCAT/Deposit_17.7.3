@@ -4,17 +4,13 @@ money = input('money = ')
 
 deposit = []
 
-TKB = per_cent.get('ТКБ') * int(money)/100
-deposit.append(int(TKB))
+deposit.append(int(per_cent.get('ТКБ') * int(money)/100))
 
-CKB = per_cent.get('СКБ') * int(money)/100
-deposit.append(int(CKB))
+deposit.append(int(per_cent.get('СКБ') * int(money)/100))
 
-VTB = per_cent.get('ВТБ') * int(money)/100
-deposit.append(int(VTB))
+deposit.append(int(per_cent.get('ВТБ') * int(money)/100))
 
-SBER = per_cent.get('СБЕР') * int(money)/100
-deposit.append(int(SBER))
+deposit.append(int(per_cent.get('СБЕР') * int(money)/100))
 
 print('deposit =', deposit)
 
